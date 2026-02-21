@@ -1,0 +1,116 @@
+body {
+    background: #6594B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+
+.login_container {
+    position: absolute;
+    height: 60%;
+    position: absolute;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+    bottom: 30%;
+    color: #66a6ff;
+    background: #fff;
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 40px;
+    margin: 40px;
+    color: #213C51;
+}
+
+.username_input input {
+   
+    width: 85%;
+    height: 30px;
+    background-color: transparent;
+    background: none;
+    border: 2px solid #213C51;
+    border-radius: 30px;
+    margin: 0px 20px;
+    padding-left: 20px;
+}
+
+.password_input input {
+    width: 85%;
+    height: 30px;
+    background-color: transparent;
+    background: none;
+    border: 2px solid #213C51;
+    border-radius: 30px;
+    margin: 0px 20px;
+    padding-left: 20px;
+}
+
+
+label {
+    display: block;
+    font-size: large;
+    margin: 30px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: #d46bbe;
+}
+
+
+.option {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    margin-top: 0, 5px;
+}
+
+s
+/* a {
+    position: absolute;
+    text-align: right; 
+
+}*/
+
+.btn {
+    text-align: center;
+    width: max-content;
+
+
+}
+
+button {
+    display: block;
+    text-align: center;
+    margin: 35px auto;
+    width: max-content;
+    /* font-size: 30px; */
+
+
+    background: #213C51;
+    color: #EEEEEE;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    
+
+
+
+}
+
+.reg {
+    text-align: center;
+    margin-top: 50px;
+}
